@@ -13,3 +13,5 @@ def maxSubArray(self, nums: List[int]) -> int:
         curSum += n
         maxSub = max(maxSub, curSub)
     return maxSub
+
+print(maxSubArray(Input))
